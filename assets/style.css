@@ -1,0 +1,38 @@
+body {
+    background-color: #f6f7fb;
+}
+
+.hero-section {
+    min-height: 380px;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #b71540 100%);
+}
+
+.search-form {
+    max-width: 500px;
+}
+
+.film-card img {
+    height: 320px;
+    object-fit: cover;
+}
+
+.film-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: none;
+}
+
+.film-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12) !important;
+}
+
+.struk-card {
+    border: none;
+    border-radius: 14px;
+}
+
+@media print {
+    nav, footer, .btn {
+        display: none !important;
+    }
+}
